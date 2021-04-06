@@ -1,0 +1,56 @@
+//
+@import 'reset';
+
+@font-face {
+  font-family: MyFont;
+  src: url(./../../assets/fonts/visitor-2009.ttf);
+}
+
+.register-text {
+  font-family: MyFont, sans-serif;
+  font-size: 2vh;
+}
+
+.container-fluid {
+  height: 100%;
+}
+#validation-section {
+  height: 100%;
+  font-size: 1.7vh;
+  background-color: #6fc5dc;
+}
+
+#visitors-v-logo {
+  margin: 1% auto 1% auto;
+  height: 9vh;
+}
+#validation-form {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thankyou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../../assets/images/diane_4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#submit-register-button {
+  font-size: 2vh;
+}
+footer {
+  font-family: MyFont, sans-serif;
+  font-size: 1vh;
+}
+
+//Vuenimations
+
+listtest-enter-active {
+  animation: fadeIn;
+}

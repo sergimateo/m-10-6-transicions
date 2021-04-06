@@ -1,0 +1,51 @@
+
+// <form
+//         class="form-horizontal"
+//         id="validation-form"
+//         action="register-complete.html"
+//       >
+//         <legend class="ml-3 pb-4">Registration Form</legend>
+//         <div class="form-row"></div>
+//         <div>
+//           <app-form-field :key="item.id" :typeprop="item.type"></app-form-field>
+//         </div>
+//       </form>
+
+<FormField
+          v-for="item of items"
+          :key="item.id"
+          :datatype="item.type"
+          :dataplaceholder="item.placeholder"
+          :dataidtag="item.idtag"
+          :datalabel="item.label"
+          :datalabelclass="item.labelclass"
+          :dataclass="item.classtag"
+        >
+        </FormField>
+
+
+        {
+          id: 8,
+          inputidtag: 'policy-checkbox',
+          inputclass: 'form-control',
+          type: 'checkbox',
+          label: '',
+          labelclass: 'control-label',
+          placeholder: '',
+          textinsideinput:
+            'I have read and agree to the <a href=#>Privacy Policy</a>'
+        },
+
+        inputidtag: 'postal-code-input',
+          inputclass: 'form-control',
+          type: 'number',
+          label: 'Postal/Zip Code',
+          labelclass: 'control-label',
+          placeholder: '12345',
+
+          inputidtag: 'password-input',
+          inputclass: 'form-control',
+          type: 'password',
+          label: 'Password',
+          labelclass: 'control-label',
+          placeholder: 'Password'
