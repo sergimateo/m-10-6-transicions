@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,KAAK;CACjB;;AACD,AAAA,cAAc,CAAC;EACX,gBAAgB,EAAE,wCAAwC;EAC1D,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;CAC9B;;AAED,AAAA,aAAa,EAAE,UAAU,CAAA;EACzB,KAAK,EAAC,OAAkB;EACxB,WAAW,EAAE,OAAO;EACpB,SAAS,EAAE,KAAK;CACf",
+    "sources": [
+        "../SCSS/modal-bootstrap.scss"
+    ],
+    "names": [],
+    "file": "modal-bootstrap.css"
+}

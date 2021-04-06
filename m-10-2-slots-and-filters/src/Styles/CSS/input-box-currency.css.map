@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,OAAiB;EACxB,aAAa,EAAE,GAAG;CACnB",
+    "sources": [
+        "../SCSS/input-box-currency.scss"
+    ],
+    "names": [],
+    "file": "input-box-currency.css"
+}

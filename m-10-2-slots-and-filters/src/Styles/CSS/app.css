@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../../assets/freddie-montse_op02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.modal-title {
+  font-size: 1.2em;
+}
+
+#input-box {
+  width: 200px;
+}
+
+.seagull {
+  font-style: italic;
+  font-weight: 400;
+  font-family: cursive;
+  font-size: 2.5rem;
+  color: #857416;
+}
+
+.seagull:hover {
+  color: bisque;
+  cursor: pointer;
+}
+
+.mercury-msg-enter,
+.mercury-msg-leave-to {
+  opacity: 0;
+}
+
+.mercury-msg-leave-active {
+  -webkit-transition: all 1.5s cubic-bezier(1, 0.5, 0.8, 1);
+  transition: all 1.5s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.mercury-msg-enter-active {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.modal-fader-enter,
+.modal-fader-leave-to {
+  opacity: 0;
+}
+
+.modal-fader-leave-active {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.modal-fader-enter-active {
+  -webkit-transition: all 4s ease;
+  transition: all 4s ease;
+}
+/*# sourceMappingURL=app.css.map */
